@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruze</title>
+
+    <!--googel fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+
+<!--linking CSS-->
+
+<link rel="stylesheet" href="style.css">
+
+<!--font awsome icon-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+<!--nav bar-->
+
+<nav class="navbar">
+    <h1>Cruze</h1>
+    <div class="navbar-links">
+        <p class="navbar-link"><a href="index.html">Home</a></p>
+        <p class="navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="navbar-link"><a href="contact.html">Contact</a></p>
+    </div>
+<div class="navbar-menu-toggle" onclick="showNavbar()">
+    <i class="fa-solid fa-bars"></i> 
+
+</div>
+</nav>
+
+<!--side navbar-->
+
+<div class="side-navbar">
+    <p style="text-align: right;">
+        <i class="fa-solid fa-xmark" onclick=" hideNavbar()"></i>
+    </p>
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href= "index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+    </div>
+</div>
+
+
+<!--Product-->
+<div class="product-section">
+    <form class="product-search">
+        <input type="text" id="search" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+
+    <div class="products" id="products">
+
+       <div class="products-box"> 
+        <img src="https://via.placeholder.com/200x200" alt="Placeholder Image">
+        <p>White Shirt</p>
+    </div>
+
+    <div class="products-box"> 
+        <img src="https://via.placeholder.com/200x200" alt="Placeholder Image">
+        <p>Black Shirt</p>
+    </div>
+
+    <div class="products-box"> 
+        <img src="https://via.placeholder.com/200x200" alt="Placeholder Image">
+        <p>White Shirt</p>
+    </div>
+
+    <div class="products-box"> 
+        <img src="https://via.placeholder.com/200x200" alt="Placeholder Image">
+        <p>Black Shirt</p>
+    </div>
+
+    <div class="products-box"> 
+        <img src="https://via.placeholder.com/200x200" alt="Placeholder Image">
+        <p>White Shirt</p>
+    </div>
+
+    <div class="products-box"> 
+        <img src="https://via.placeholder.com/200x200" alt="Placeholder Image">
+        <p>Black Shirt</p>
+    </div>
+
+</div>
+</div>
+
+   <!--fotter-->
+
+   <DIV class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Cruze</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus quos est eos natus velit repellendus voluptates fugit tempore sit?</p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color: aliceblue;"></i>
+                <i class="fa-brands fa-facebook"style="color: aliceblue;"></i>
+                <i class="fa-brands fa-twitter"style="color: aliceblue;"></i>
+            </div>
+        </div>
+
+    </div>
+    <p>@ 2024 Cruze.com</p>
+ </DIV>
+<script src="collection.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
